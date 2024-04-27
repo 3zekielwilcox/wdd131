@@ -1,0 +1,54 @@
+header {
+    display: grid;
+    grid-template-rows: 3fr 2fr;
+    width: 100%;
+    max-width: 1600px;
+}
+
+nav {
+    background-color: aliceblue;
+    display: flex;
+    justify-content: space-around;
+}
+
+.home-link {
+    display: flex;
+    justify-content: center;
+}
+
+body {
+    width: 100%;
+    max-width: 1600px;
+}
+
+.home-grid {
+    display: grid;
+    grid-template-columns: 4fr 2fr;
+}
+
+.self_portrait {
+    width: 200px;
+}
+
+.flag {
+    width: 500px;
+    grid-column: 0 / 1;
+}
+
+.about_me {
+display: grid;
+grid-template-columns: 3fr 1fr;
+}
+
+.city {
+    display: grid;
+    grid-template-columns: 1fr 3fr;
+    }
+
+.about_me p {
+grid-column: 0 / 3;
+}
+
+.flag p {
+
+}
