@@ -48,7 +48,8 @@ main {
 }
 
 .about_me_card .about img {
-    width: 35%;
+    width: 300px;
+    height: auto;
     float: right;
 }
 
