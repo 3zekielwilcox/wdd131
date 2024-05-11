@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>WDD 131 - Dynamic Web Fundamentals - Place</title>
+    <meta name="description" content="This is a page that contains a brief overview of a place that I'd like to visit.">
+    <meta name="author" content="Ezekiel M. Wilcox">
+    <link rel="stylesheet" href="styles/place.css">
+    <link rel="stylesheet" href="styles/place-large.css">
+    <script src="scripts/place.js" defer></script>
+</head>
+<body>
+    <header>
+        <div id="header">
+            <h2>Japan - 日本</h2>
+        </div>
+    </header>
+    <div id="hero">
+        <div id="hero-box">
+            <source srcset="images/japan.webp" media="(min-width: 1000px)">
+            <source srcset="images/japan.webp" media="(min-width: 500px)">
+            <img src="images/japan.webp" alt="Mount Fuji" class="hero-img">
+        </div>
+        <section id="hero-msg">
+            <h4>Mount Fuji - 富士山</h4>
+        </section>
+    </div>
+    <main class="home-grid">
+        <div class="data-card">
+            <div class="data-top-left">
+                <h2>Data</h2>
+            </div>
+            <div>
+                <table>
+                    <tr>
+                        <td><strong>Area:</strong></td>
+                        <td> 377,973.89 square kilometers</td>
+                    </tr>
+                    <tr>
+                        <td><strong>Population:</strong></td>
+                        <td>125.1 million</td>
+                    </tr>
+                    <tr>
+                        <td><strong>Capital:</strong></td>
+                        <td>Tokyo</td>
+                    </tr>
+                    <tr>
+                        <td><strong>Language:</strong></td>
+                        <td>Japanese</td>
+                    </tr>
+                    <tr>
+                        <td><strong>Currency:</strong></td>
+                        <td>Yen</td>
+                    </tr>
+                    <tr>
+                        <td><strong>Time Zone:</strong></td>
+                        <td>JST</td>
+                    </tr>
+                    <tr>
+                        <td><strong>Calling Code:</strong></td>
+                        <td>+81</td>
+                    </tr>
+                    <tr>
+                        <td><strong>Internet TLD:</strong></td>
+                        <td>.jp</td>
+                    </tr>
+                </table>
+            </div>
+        </div>
+        <div class="weather-card">
+            <div class="weather-bottom-right">
+                <h2>Weather</h2>
+                <figure>
+                    <img src="images/weather-icon.png" alt="weather icon" class="weather-icon" width="100" height="100">
+                </figure>
+            </div>
+            <div>
+                <p><strong>Temperature:</strong> <span id="temperature"></span></p>
+                <p><strong>Condition:</strong> <span id="condition"></span></p>
+                <p><strong>Wind Speed:</strong> <span id="wind-speed"></span></p>
+                <p><strong>Wind chill:</strong> <span id="wind-chill"></span></p>
+            </div>
+        </div>
+    </main>
+    <footer>
+        <p>&copy;<span id="currentyear"></span> | Ezekiel Mason Wilcox</p>
+        <p class="red"><span id="lastModified"></span></p>
+    </footer>
+</body>
+</html>

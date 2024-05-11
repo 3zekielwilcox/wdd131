@@ -1,0 +1,52 @@
+@media screen and (min-width: 650px){
+
+    .hero-box{
+        background-color:  #080d10;
+        color: white;
+        margin-top: 1rem;
+        margin-left: -1rem;
+        padding: 0.8rem 1rem;
+        text-align: left;
+    }
+
+    .data-card {
+        position: absolute;
+        top: 150px;
+        left: 16px;
+        width: 300px;
+    }
+
+    .weather-card {
+        position: absolute;
+        bottom: 8px;
+        right: 16px;
+        width: 300px;
+    }
+
+    .data-card, .weather-card      {
+        background-color: rgba(252, 245, 235, .8);
+        color: black;
+        -webkit-box-shadow: 10px 10px 5px -6px rgba(0,0,0,0.75);
+        -moz-box-shadow: 10px 10px 5px -6px rgba(0,0,0,0.75);
+        box-shadow: 10px 10px 5px -6px rgba(0,0,0,0.75);
+        padding: 10px;
+    }
+
+    .move2 h2::after {
+        content: "⛅";
+    }
+  
+    h2 {
+        text-align: left;
+    }
+
+    figure {
+        display: none;
+    }
+
+    .hero-img, .home-grid {
+        height: auto;
+        width: 100%;
+        margin: auto;
+    }
+}
