@@ -22,7 +22,7 @@ h2 {
     text-align: center;  
 }
 
-.weather, data {
+.weather-card, .data-card {
     margin: 0 10px;
 }
 

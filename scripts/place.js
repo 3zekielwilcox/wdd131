@@ -18,9 +18,9 @@ document.addEventListener("DOMContentLoaded", function () {
 
 function fetchWeather() {
 
-    const temperature = 25;
-    const condition = "Sunny";
-    const windSpeed = 10;
+    const temperature = 18;
+    const condition = "Cloudy";
+    const windSpeed = 13;
     const windchill= 'N/A';
 
     // Update the DOM with weather information
